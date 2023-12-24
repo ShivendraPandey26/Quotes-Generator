@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Merienda:wght@500&family=Orbitron&family=PT+Sans&family=Poppins:wght@500&family=Roboto&family=Roboto+Slab:wght@300&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Merienda:wght@500&family=Orbitron&family=PT+Sans&family=Poppins:wght@500&family=Roboto&family=Roboto+Slab:wght@300&family=Young+Serif&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh; 
+    background: #aaa;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Merienda', cursive;
+}
+
+.btn h1 {
+    font-size: 40px;
+    text-shadow: 1px -9px 6px #fff;
+    text-decoration: underline;
+}
+
+.btn h2 {
+    padding-top: 20px;
+}
+
+button {
+    width: auto;
+    height: auto;
+    color: #000;
+    background: #fff;
+    padding: 20px;
+    border-radius: 50px;
+    border: 2px solid #000;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+button:hover{
+    font-size: 19px;
+    background: #000;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.display {
+    width: 900px;
+    height: 300px;
+    background: #fff;
+    box-shadow: 25px 25px 15px #000;
+    position: absolute;
+    left: 300px;
+}
+
+.text {
+    margin-top: 50px;
+    padding: 0 40px 0;
+    font-size: 40px;
+    font-family: 'Merienda', cursive;
+}
+
+.source {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
